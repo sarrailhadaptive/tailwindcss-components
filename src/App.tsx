@@ -1,3 +1,4 @@
+import DropdownList from "./components/DropdownList"
 import MenuDropdown from "./components/MenuDropdown"
 import Modal from "./components/Modal"
 import RadioGroups from "./components/RadioGroup"
@@ -28,6 +29,10 @@ function App() {
         <h2 className="font-bold text-xl pt-16">Switch</h2>
         <div className="mt-2">
           <SwitchToggle />
+        </div>
+        <h2 className="font-bold text-xl pt-16">Disclosure</h2>
+        <div className="mt-2">
+          <DropdownList />
         </div>
       </div >
     </div >
