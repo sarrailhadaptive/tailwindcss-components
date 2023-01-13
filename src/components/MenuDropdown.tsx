@@ -1,4 +1,5 @@
 import { Menu, Transition } from '@headlessui/react'
+import { Fragment } from 'react'
 
 export default function MenuDropdown() {
   return (
@@ -10,10 +11,8 @@ export default function MenuDropdown() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </Menu.Button>
-        {/* I don't understand why the origin-top-left class in Menu.Items is not working, the menu is supposed to come from the top left
-            but instead is coming from the top right. I've tried moving it into different places and using other combinations but nothing is fixing the problem.
-            */}
         <Transition
+          as={Fragment}
           enter="transition duration-100 ease-out"
           enterFrom="transform scale-75 opacity-0"
           enterTo="transform scale-100 opacity-100"
