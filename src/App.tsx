@@ -1,6 +1,7 @@
 import MenuDropdown from "./components/MenuDropdown"
 import Modal from "./components/Modal"
 import RadioGroups from "./components/RadioGroup"
+import SwitchToggle from "./components/SwitchToggle"
 import Tabs from "./components/Tabs"
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
         <h2 className="font-bold text-xl pt-16">Tabs</h2>
         <div className="mt-2">
           <Tabs />
+        </div>
+        <h2 className="font-bold text-xl pt-16">Switch</h2>
+        <div className="mt-2">
+          <SwitchToggle />
         </div>
       </div >
     </div >
