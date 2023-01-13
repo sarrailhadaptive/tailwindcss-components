@@ -15,7 +15,6 @@ export default function Modal() {
 
   return (
     <>
-      <h2 className="font-bold text-xl pt-2">Dialog (Modal)</h2>
       <div className="mt-4">
         <button onClick={openModal} className="flex items-center bg-blue-500 text-white rounded-md px-4 py-2">
           <span>Open Modal</span>
