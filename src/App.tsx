@@ -1,6 +1,7 @@
 import MenuDropdown from "./components/MenuDropdown"
 import Modal from "./components/Modal"
 import RadioGroups from "./components/RadioGroup"
+import Tabs from "./components/Tabs"
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
         <h2 className="font-bold text-xl pt-16">Radio Group</h2>
         <div className="mt-2">
           <RadioGroups />
+        </div>
+        <h2 className="font-bold text-xl pt-16">Tabs</h2>
+        <div className="mt-2">
+          <Tabs />
         </div>
       </div >
     </div >
