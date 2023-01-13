@@ -1,4 +1,5 @@
 import MenuDropdown from "./components/MenuDropdown"
+import Modal from "./components/Modal"
 
 function App() {
 
@@ -8,6 +9,9 @@ function App() {
         <h2 className="font-bold">Menu (Dropdown)</h2>
         <div className='mt-4'>
           <MenuDropdown />
+        </div>
+        <div className="mt-4">
+          <Modal />
         </div>
       </div >
     </div >
