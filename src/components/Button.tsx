@@ -1,11 +1,6 @@
+import { ButtonType } from "../assets/types"
 
-interface Button {
-  text: string
-  style: string
-  disabled?: string
-}
-
-export default function Button({ text, style, disabled = "" }: Button) {
+export default function Button({ text, style, disabled = "" }: ButtonType) {
   console.log("testing")
 
   return (

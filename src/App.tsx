@@ -1,3 +1,4 @@
+import { btnBuyClass, btnSellClass } from "./assets/styles"
 import Button from "./components/Button"
 import DropdownList from "./components/DropdownList"
 import MenuDropdown from "./components/MenuDropdown"
@@ -5,8 +6,6 @@ import Modal from "./components/Modal"
 import RadioGroups from "./components/RadioGroup"
 import SwitchToggle from "./components/SwitchToggle"
 import Tabs from "./components/Tabs"
-
-const btnBuyClass = "bg-button-pink w-24 h-5 rounded-3xl text-xs hover:bg-button-pink-hovered"
 
 function App() {
 
@@ -51,9 +50,9 @@ function App() {
         </div>
         <div>
           <h2 className="font-bold text-xl pt-16">Button</h2>
-          <div className="mt-2">
+          <div className="mt-2 grid grid-cols-2">
             <Button text="Buy" style={btnBuyClass} />
-            <Button text="Sell" style={btnBuyClass} />
+            <Button text="Sell" style={btnSellClass} />
             <Button text="Add to Cart" style={btnBuyClass} />
             <Button text="Disabled" style={btnBuyClass} disabled="disabled" />
             <Button text="Forward" style={btnBuyClass} />
