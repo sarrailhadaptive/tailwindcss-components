@@ -5,7 +5,12 @@ module.exports = {
     './src/**/*.{js,ts,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'button-pink': '#DBDDFF',
+        'button-pink-hovered': '#A9ABD1'
+      }
+    },
   },
   plugins: [],
 }
