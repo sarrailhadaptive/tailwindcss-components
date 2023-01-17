@@ -1,0 +1,2 @@
+export const btnBuyClass = "bg-button-pink w-24 h-5 rounded-3xl text-xs hover:bg-button-pink-hovered"
+export const btnSellClass = "bg-gray rounded-3xl w-24 h-5 text-xs hover:bg-button-pink border-2 border-button-pink"
