@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-import { btnBuyClass, btnSellClass } from "./assets/styles"
-import Button from "./components/Button"
-=======
->>>>>>> e213bdc (Initial Commit + Menu Dropdown Component)
 import DropdownList from "./components/DropdownList"
 import MenuDropdown from "./components/MenuDropdown"
 import Modal from "./components/Modal"
@@ -14,55 +9,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-200 text-gray-900">
-<<<<<<< HEAD
-      <div className="container mx-auto grid grid-cols-4 gap-16">
-        <div>
-          <h2 className="font-bold text-xl pt-16">Menu (Dropdown)</h2>
-          <div className='mt-2'>
-            <MenuDropdown />
-          </div>
-        </div>
-        <div>
-          <h2 className="font-bold text-xl pt-16">Dialog (Modal)</h2>
-          <div className="mt-2">
-            <Modal />
-          </div>
-        </div>
-        <div>
-          <h2 className="font-bold text-xl pt-16">Radio Group</h2>
-          <div className="mt-2">
-            <RadioGroups />
-          </div>
-        </div>
-        <div>
-          <h2 className="font-bold text-xl pt-16">Tabs</h2>
-          <div className="mt-2">
-            <Tabs />
-          </div>
-        </div>
-        <div>
-          <h2 className="font-bold text-xl pt-16">Switch</h2>
-          <div className="mt-2">
-            <SwitchToggle />
-          </div>
-        </div>
-        <div>
-          <h2 className="font-bold text-xl pt-16">Disclosure</h2>
-          <div className="mt-2">
-            <DropdownList />
-          </div>
-        </div>
-        <div>
-          <h2 className="font-bold text-xl pt-16">Button</h2>
-          <div className="mt-2 grid grid-cols-2">
-            <Button text="Buy" style={btnBuyClass} />
-            <Button text="Sell" style={btnSellClass} />
-            <Button text="Add to Cart" style={btnBuyClass} />
-            <Button text="Disabled" style={btnBuyClass} disabled="disabled" />
-            <Button text="Forward" style={btnBuyClass} />
-            <Button text="Back" style={btnBuyClass} />
-          </div>
-=======
       <div className="container mx-auto px-4">
         <h2 className="font-bold text-xl pt-2">Menu (Dropdown)</h2>
         <div className='mt-2'>
@@ -87,7 +33,6 @@ function App() {
         <h2 className="font-bold text-xl pt-16">Disclosure</h2>
         <div className="mt-2">
           <DropdownList />
->>>>>>> e213bdc (Initial Commit + Menu Dropdown Component)
         </div>
       </div >
     </div >
